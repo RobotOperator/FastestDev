@@ -1,5 +1,5 @@
 # FastestDev
-This repository contains the POC example code for the demonstrations from my talk at Objective by the Sea v9.0 "Fastest Dev: Racing to Steal Credentials". It demonstrates the race condition of a third party process consuming password characters from a TTY device before the intended binary, /usr/bin/sudo. 
+This repository contains the POC example code for the demonstrations from my talk at Objective by the Sea v9.0 "Fastest Dev: Racing to Steal Credentials". It demonstrates the race condition of a third party process consuming password characters from a TTY device before the intended binary `/usr/bin/sudo`. 
 
 The `poc_js_runner.py` is the code that was bundled in RedRacer.app. Link to the presentation and more details pending.
 
@@ -12,7 +12,7 @@ The `poc_js_runner.py` is the code that was bundled in RedRacer.app. Link to the
 1. `python3 ./poc_local_shell.py`
 2. In another terminal, type `sudo whoami`
 3. Enter your administrator user password
-4. View where the POC was run and see that an interactive elevated shell was spawned
+4. View the interface where the POC was run and see that an interactive elevated shell was spawned
 
 ### poc_js_runner.py
 1. Create a JXA file, `./OBTS_demoScript.js`, you want to be executed with elevated privileges in the same directory as the poc
